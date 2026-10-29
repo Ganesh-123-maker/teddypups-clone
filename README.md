@@ -4,6 +4,12 @@ A fresh re-implementation of https://puppy.instabizweb.com/ — TeddyPups U.A.E.
 premium teacup puppies in Dubai — built as the Technical Round assignment for
 Insta Biz Web.
 
+- **Live site:** https://teddypups-clone-flax.vercel.app
+- **Source:** https://github.com/Ganesh-123-maker/teddypups-clone
+- **Deployed from:** main @ 6358516 (Vercel, Production, Ready). Note: the
+  unique deployment URL requires Vercel login; use the production domain
+  above for reviewers. `teddypups-clone.vercel.app` is NOT this project.
+
 ## What was cloned
 
 - **Homepage:** hero (“every puppy is family / Premium teacup puppies in Dubai”),
