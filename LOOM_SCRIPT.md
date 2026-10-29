@@ -36,7 +36,7 @@ word for word — use it as the order of topics, then explain in your own words.
   before writing code”, (2) “scaffold a Next.js clone with homepage, puppy
   list with filters, detail pages, how-it-works”, (3) “build and fix until
   `npm run build` passes and every route returns 200”.
-- What I checked myself, not blindly trusted: the build output (21 pages),
+- What I checked myself, not blindly trusted: the build output (25 pages),
   the live local server responses, and the filter behaviour.
 
 ## 6. Implementation decisions (1 min)
@@ -56,9 +56,10 @@ word for word — use it as the order of topics, then explain in your own words.
 - Responsive layout: grid 3 → 2 → 1 columns, hero and detail stack on mobile.
 
 ## 8. Testing and deployment (1 min)
-- `npm run build` — compiled, type-checked, 21 static pages.
-- Local production server: `/`, `/puppies`, `/puppies/maltipoo-max-male`,
-  `/how-it-works` all returned 200.
+- `npm run build` — compiled, type-checked, 25 static pages.
+- Local production server: `/`, `/puppies`, a detail page, `/how-it-works`,
+  `/happy-families`, `/faq`, `/contact`, `/gone-home` — all 8 routes
+  returned 200. The live site was also checked as an anonymous visitor.
 - Deployment: import the repo into Vercel, no env vars, no custom build
   settings. Then show the live URL and click through it on camera.
 
